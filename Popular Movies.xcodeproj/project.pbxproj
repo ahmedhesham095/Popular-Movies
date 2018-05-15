@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A05385720A5973D005DC642 /* MoviesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A05385620A5973D005DC642 /* MoviesViewController.m */; };
 		4A14FADB20A4E2E0005F5FCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A14FADA20A4E2E0005F5FCF /* main.m */; };
 		4A14FADE20A4E2E0005F5FCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A14FADD20A4E2E0005F5FCF /* AppDelegate.m */; };
 		4A14FAE120A4E2E0005F5FCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A14FAE020A4E2E0005F5FCF /* ViewController.m */; };
@@ -15,6 +16,15 @@
 		4A14FAE920A4E2E0005F5FCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A14FAE720A4E2E0005F5FCF /* LaunchScreen.storyboard */; };
 		4A14FAF420A4E2E4005F5FCF /* Popular_MoviesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A14FAF320A4E2E4005F5FCF /* Popular_MoviesTests.m */; };
 		4A14FAFF20A4E2E5005F5FCF /* Popular_MoviesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A14FAFE20A4E2E5005F5FCF /* Popular_MoviesUITests.m */; };
+		4A893AC320AB2FDF0084748C /* DataBaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A893AC220AB2FDF0084748C /* DataBaseHelper.m */; };
+		4A893AC820AB303D0084748C /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A893AC720AB303D0084748C /* Movie.m */; };
+		4A893ACA20AB3DB10084748C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A893AC920AB3DB10084748C /* libsqlite3.tbd */; };
+		4A893ACD20AB40210084748C /* favoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A893ACC20AB40210084748C /* favoriteViewController.m */; };
+		4AB7318A20A5D3CA003B6723 /* trailerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7318920A5D3CA003B6723 /* trailerViewController.m */; };
+		4AB7318C20A5E156003B6723 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AB7318B20A5E156003B6723 /* play.png */; };
+		4AB7318F20A5E83F003B6723 /* reviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7318E20A5E83F003B6723 /* reviewViewController.m */; };
+		4AB7319220A5F125003B6723 /* ReviewDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7319120A5F125003B6723 /* ReviewDetail.m */; };
+		8A28575D57068ABEE730E41A /* libPods-Popular Movies.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DC455D1F90483EBF19BE05 /* libPods-Popular Movies.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A05385520A59726005DC642 /* MoviesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoviesViewController.h; sourceTree = "<group>"; };
+		4A05385620A5973D005DC642 /* MoviesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesViewController.m; sourceTree = "<group>"; };
 		4A14FAD620A4E2DF005F5FCF /* Popular Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Popular Movies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A14FADA20A4E2E0005F5FCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A14FADC20A4E2E0005F5FCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,23 @@
 		4A14FAFA20A4E2E5005F5FCF /* Popular MoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Popular MoviesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A14FAFE20A4E2E5005F5FCF /* Popular_MoviesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Popular_MoviesUITests.m; sourceTree = "<group>"; };
 		4A14FB0020A4E2E5005F5FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A893AC120AB2FD00084748C /* DataBaseHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataBaseHelper.h; sourceTree = "<group>"; };
+		4A893AC220AB2FDF0084748C /* DataBaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseHelper.m; sourceTree = "<group>"; };
+		4A893AC620AB303D0084748C /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		4A893AC720AB303D0084748C /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		4A893AC920AB3DB10084748C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		4A893ACB20AB40210084748C /* favoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = favoriteViewController.h; sourceTree = "<group>"; };
+		4A893ACC20AB40210084748C /* favoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = favoriteViewController.m; sourceTree = "<group>"; };
+		4AB7318820A5D3CA003B6723 /* trailerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trailerViewController.h; sourceTree = "<group>"; };
+		4AB7318920A5D3CA003B6723 /* trailerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trailerViewController.m; sourceTree = "<group>"; };
+		4AB7318B20A5E156003B6723 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = ../play.png; sourceTree = "<group>"; };
+		4AB7318D20A5E83F003B6723 /* reviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = reviewViewController.h; path = ../reviewViewController.h; sourceTree = "<group>"; };
+		4AB7318E20A5E83F003B6723 /* reviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = reviewViewController.m; path = ../reviewViewController.m; sourceTree = "<group>"; };
+		4AB7319020A5F125003B6723 /* ReviewDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReviewDetail.h; path = ../ReviewDetail.h; sourceTree = "<group>"; };
+		4AB7319120A5F125003B6723 /* ReviewDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReviewDetail.m; path = ../ReviewDetail.m; sourceTree = "<group>"; };
+		B0A011C27145A44550BAB823 /* Pods-Popular Movies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Popular Movies.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Popular Movies/Pods-Popular Movies.debug.xcconfig"; sourceTree = "<group>"; };
+		C2DC455D1F90483EBF19BE05 /* libPods-Popular Movies.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Popular Movies.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AA244C9006CD6125D2CC8D /* Pods-Popular Movies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Popular Movies.release.xcconfig"; path = "Pods/Target Support Files/Pods-Popular Movies/Pods-Popular Movies.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A893ACA20AB3DB10084748C /* libsqlite3.tbd in Frameworks */,
+				8A28575D57068ABEE730E41A /* libPods-Popular Movies.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +109,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BB9D4A0FF22A181D111F0C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0A011C27145A44550BAB823 /* Pods-Popular Movies.debug.xcconfig */,
+				C4AA244C9006CD6125D2CC8D /* Pods-Popular Movies.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4A14FACD20A4E2DF005F5FCF = {
 			isa = PBXGroup;
 			children = (
 				4A14FAD820A4E2DF005F5FCF /* Popular Movies */,
-				4A14FAF220A4E2E4005F5FCF /* Popular MoviesTests */,
-				4A14FAFD20A4E2E5005F5FCF /* Popular MoviesUITests */,
 				4A14FAD720A4E2DF005F5FCF /* Products */,
+				2BB9D4A0FF22A181D111F0C3 /* Pods */,
+				82E7EA8798718A5DD8285598 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,14 +142,30 @@
 			isa = PBXGroup;
 			children = (
 				4A14FADC20A4E2E0005F5FCF /* AppDelegate.h */,
+				4AB7319120A5F125003B6723 /* ReviewDetail.m */,
+				4A893AC120AB2FD00084748C /* DataBaseHelper.h */,
+				4A893AC220AB2FDF0084748C /* DataBaseHelper.m */,
+				4AB7319020A5F125003B6723 /* ReviewDetail.h */,
+				4AB7318B20A5E156003B6723 /* play.png */,
+				4A05385620A5973D005DC642 /* MoviesViewController.m */,
+				4AB7318D20A5E83F003B6723 /* reviewViewController.h */,
+				4AB7318E20A5E83F003B6723 /* reviewViewController.m */,
+				4A05385520A59726005DC642 /* MoviesViewController.h */,
 				4A14FADD20A4E2E0005F5FCF /* AppDelegate.m */,
 				4A14FADF20A4E2E0005F5FCF /* ViewController.h */,
 				4A14FAE020A4E2E0005F5FCF /* ViewController.m */,
+				4AB7318820A5D3CA003B6723 /* trailerViewController.h */,
+				4AB7318920A5D3CA003B6723 /* trailerViewController.m */,
 				4A14FAE220A4E2E0005F5FCF /* Main.storyboard */,
 				4A14FAE520A4E2E0005F5FCF /* Assets.xcassets */,
 				4A14FAE720A4E2E0005F5FCF /* LaunchScreen.storyboard */,
 				4A14FAEA20A4E2E1005F5FCF /* Info.plist */,
+				4A14FAF220A4E2E4005F5FCF /* Popular MoviesTests */,
 				4A14FAD920A4E2DF005F5FCF /* Supporting Files */,
+				4A893AC620AB303D0084748C /* Movie.h */,
+				4A893AC720AB303D0084748C /* Movie.m */,
+				4A893ACB20AB40210084748C /* favoriteViewController.h */,
+				4A893ACC20AB40210084748C /* favoriteViewController.m */,
 			);
 			path = "Popular Movies";
 			sourceTree = "<group>";
@@ -125,11 +181,12 @@
 		4A14FAF220A4E2E4005F5FCF /* Popular MoviesTests */ = {
 			isa = PBXGroup;
 			children = (
+				4A14FAFD20A4E2E5005F5FCF /* Popular MoviesUITests */,
 				4A14FAF320A4E2E4005F5FCF /* Popular_MoviesTests.m */,
 				4A14FAF520A4E2E4005F5FCF /* Info.plist */,
 			);
 			path = "Popular MoviesTests";
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		4A14FAFD20A4E2E5005F5FCF /* Popular MoviesUITests */ = {
 			isa = PBXGroup;
@@ -137,7 +194,17 @@
 				4A14FAFE20A4E2E5005F5FCF /* Popular_MoviesUITests.m */,
 				4A14FB0020A4E2E5005F5FCF /* Info.plist */,
 			);
-			path = "Popular MoviesUITests";
+			name = "Popular MoviesUITests";
+			path = "../Popular MoviesUITests";
+			sourceTree = "<group>";
+		};
+		82E7EA8798718A5DD8285598 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A893AC920AB3DB10084748C /* libsqlite3.tbd */,
+				C2DC455D1F90483EBF19BE05 /* libPods-Popular Movies.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A14FB0320A4E2E5005F5FCF /* Build configuration list for PBXNativeTarget "Popular Movies" */;
 			buildPhases = (
+				3006F4ABC9E7D862EAFAA65A /* [CP] Check Pods Manifest.lock */,
 				4A14FAD220A4E2DF005F5FCF /* Sources */,
 				4A14FAD320A4E2DF005F5FCF /* Frameworks */,
 				4A14FAD420A4E2DF005F5FCF /* Resources */,
@@ -244,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A14FAE920A4E2E0005F5FCF /* LaunchScreen.storyboard in Resources */,
+				4AB7318C20A5E156003B6723 /* play.png in Resources */,
 				4A14FAE620A4E2E0005F5FCF /* Assets.xcassets in Resources */,
 				4A14FAE420A4E2E0005F5FCF /* Main.storyboard in Resources */,
 			);
@@ -265,13 +334,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3006F4ABC9E7D862EAFAA65A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Popular Movies-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A14FAD220A4E2DF005F5FCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A893AC320AB2FDF0084748C /* DataBaseHelper.m in Sources */,
+				4AB7318F20A5E83F003B6723 /* reviewViewController.m in Sources */,
+				4AB7318A20A5D3CA003B6723 /* trailerViewController.m in Sources */,
 				4A14FAE120A4E2E0005F5FCF /* ViewController.m in Sources */,
+				4A05385720A5973D005DC642 /* MoviesViewController.m in Sources */,
+				4AB7319220A5F125003B6723 /* ReviewDetail.m in Sources */,
+				4A893AC820AB303D0084748C /* Movie.m in Sources */,
 				4A14FADE20A4E2E0005F5FCF /* AppDelegate.m in Sources */,
+				4A893ACD20AB40210084748C /* favoriteViewController.m in Sources */,
 				4A14FADB20A4E2E0005F5FCF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,19 +506,24 @@
 		};
 		4A14FB0420A4E2E5005F5FCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0A011C27145A44550BAB823 /* Pods-Popular Movies.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Popular Movies/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hesham.Popular-Movies";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		4A14FB0520A4E2E5005F5FCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4AA244C9006CD6125D2CC8D /* Pods-Popular Movies.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Popular Movies/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hesham.Popular-Movies";
@@ -496,6 +598,7 @@
 				4A14FB0520A4E2E5005F5FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A14FB0620A4E2E5005F5FCF /* Build configuration list for PBXNativeTarget "Popular MoviesTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +607,7 @@
 				4A14FB0820A4E2E5005F5FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A14FB0920A4E2E5005F5FCF /* Build configuration list for PBXNativeTarget "Popular MoviesUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +616,7 @@
 				4A14FB0B20A4E2E5005F5FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
